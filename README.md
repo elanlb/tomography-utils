@@ -35,7 +35,7 @@ Slice syntax
 - `$ ./scripts/slice test.tif 1000 20` produces an image with 1000 / 20 = 50 slices
 
 ## Example
-```shell
+```
 $ ./wizard.sh scripts/test.tif
 scripts/test.tif[1079] TIFF 1076x1280 1076x1280+0+0 8-bit Grayscale Gray 0.040u 0:00.059
 How many slices would you like to process?

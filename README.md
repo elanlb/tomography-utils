@@ -5,6 +5,8 @@ Collection of scripts to reduce the size of layered tiff files.
 Image Magick must be installed:
 - Ubuntu: `$ sudo apt install imagemagick`
 - Mac: `$ brew install imagemagick`
+  - If Homebrew is not installed, run `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - Read more at [Homebrew](https://brew.sh/)
 
 ## Usage
 Clone the repository to your computer

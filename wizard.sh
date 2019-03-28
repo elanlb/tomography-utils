@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "tomography-utils wizard.sh by Elan Bustos"
+
 magick identify $1 | tail -1
 echo "How many slices would you like to process?"
 read lines
@@ -15,7 +17,7 @@ echo "Scaling the image..."
 ./scripts/resize.sh $1 $scale
 echo "Image scaled."
 
-# skuce the image
+# slice the image
 echo "Slicing the image..."
 ./scripts/slice.sh $1 $lines $increment
 echo "Slicing completed."
